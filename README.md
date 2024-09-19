@@ -1,5 +1,5 @@
 # description
 
-this will be the first web created by dew.
+this will be the first webpage created by dew.
 
-mian use for it will be familiarize with creating web and testing on different functions
+the main use for it will be to familiarize with creating web and testing on different functions
