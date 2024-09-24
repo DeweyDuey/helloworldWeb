@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+    from: https://www.w3schools.com/tags/att_button_formaction.asp
+    example: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_button_formaction 
+-->
+<body>
+
+<h1>The button formaction attribute</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <button type="submit">Submit</button>
+  <button type="submit" formaction="/action_page2.php">Submit to another page</button>
+</form>
+
+</body>
+</html>
