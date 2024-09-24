@@ -2,14 +2,30 @@
 <html lang="en">
 
 <head>
-    <title>BUTTON</title>
+    <title>button</title>
+    <style>
+        .btn {
+            font-size: 13px;
+            cursor: pointer;
+            background-color: aqua;
+            display: inline-block;
+        }
+        .btn :hover {
+            background-color: black;
+            color: white;
+        }
+        * {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
 
-    <button onclick="location.href='backgroundImage.html'">backgroundImage</button>
-    <button onclick="location.href='table_and_list.html'">table&list</button>
-    <button onclick="location.href='main.html'">main page</button>
+    <button onclick="location.href='backgroundImage.html'">backgroundImage</button><br><br>
+    <button onclick="location.href='table_and_list.html'">table&list</button><br><br>
+    <button onclick="location.href='main.html'">main page</button><br><br>
+    <button class="btn" onclick="alert('Hello world!')">Click Me!</button><br><br>
 
 </body>
 
